@@ -13,15 +13,15 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "No",
-      "Are you sure?",
-      "Really sure?",
-      "Think again!",
-      "Last chance!",
-      "Surely not?",
-      "You might regret this!",
-      "Give it another thought!",
+      "Baby Please?😟",
+      "Pakka?🥲",
+      "Cutu firse sochlo😟",
+      "Arre yes dabao na🙁",
+      "ek baar aur soch lo😞?",
+      "baby maan jao na",
+      "kanakkkk!!!!!!! say yes😥",
       "Are you absolutely certain?",
-      "This could be a mistake!",
+      "I am literally your baby 😥",
       "Have a heart!",
       "Don't be so cold!",
       "Change of heart?",
@@ -35,14 +35,6 @@ export default function Page() {
 
   return (
     <div className="centered-container">
-      <a
-        href="https://github.com/dikshikaaa/Valentine-s-day-experiment"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="github-link"
-      >
-        Visit Source Code on GitHub
-      </a>
       <div className="valentine-container">
         {yesPressed ? (
           <>
